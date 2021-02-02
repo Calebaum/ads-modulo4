@@ -11,7 +11,7 @@ Repositório destinado as matérias do semestre
 
 <p align="center">
   <a href="https://github.com/jhonathandosreis">
-    <img alt="Jhonathan dos Reis" src="https://img.shields.io/badge/Jhonathan dos Reis-M.4-blue">
+    <img alt="Calebe Cabral" src="https://img.shields.io/badge/Jhonathan dos Reis-M.4-blue">
   </a>
 </p>
 <br>
