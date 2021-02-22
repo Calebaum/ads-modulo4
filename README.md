@@ -10,7 +10,7 @@ Repositório destinado as matérias do semestre
 </h4>
 
 <p align="center">
-  <a href="https://github.com/jhonathandosreis">
+  <a href="https://github.com/calebaum">
     <img alt="Calebe Cabral" src="https://img.shields.io/badge/Calebe%20Cabral-4%20FATESG-blue">
   </a>
 </p>
