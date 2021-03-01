@@ -1,4 +1,4 @@
-package br.com.mxti.backend;
+package br.com.mxti.backend.entidade;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +12,7 @@ public class Pessoa {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // define a estratégia de geracao de ID
 	private Long id;
 	private String nome;
-	private String email;
+	
 
 	public Long getId() {
 		return id;
@@ -30,12 +30,6 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
+	
 
 }
