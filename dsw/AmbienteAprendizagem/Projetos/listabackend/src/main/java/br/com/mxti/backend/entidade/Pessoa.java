@@ -8,11 +8,19 @@ import javax.persistence.Id;
 @Entity // faz a classe se comportar como entidade (tabela no banco)
 public class Pessoa {
 
-	@Id  //informa que este campo é o ID
+	@Id // informa que este campo é o ID
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // define a estratégia de geracao de ID
 	private Long id;
 	private String nome;
-	
+
+	public Pessoa() {
+	}
+
+	public Pessoa(Long id, String nome) {
+		this.id = id;
+		this.nome = nome;
+
+	}
 
 	public Long getId() {
 		return id;
@@ -29,7 +37,5 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
-	
 
 }
